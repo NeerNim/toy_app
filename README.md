@@ -1,24 +1,38 @@
-# README
+# Toy App from Ruby on Rails Tutorial (Rails 5)
+App with CRUD features where users can add update and delete microposts
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby and Rails versions used in this app
 
-Things you may want to cover:
+````
+ruby 2.6.3
+rails 5.2.3
 
-* Ruby version
+````
+## Development environments
+````
+development sqlite3
+production postgres
 
-* System dependencies
+````
 
-* Configuration
 
-* Database creation
+## Getting started
+1. Install Rails at the command prompt if you haven't yet:
 
-* Database initialization
+        $ gem install rails
 
-* How to run the test suite
+2. At the command prompt, create a new Rails application:
 
-* Services (job queues, cache servers, search engines, etc.)
+        $ rails new myapp
 
-* Deployment instructions
+   where "myapp" is the application name.
 
-* ...
+3. Change directory to `myapp` and start the web server:
+
+        $ cd myapp
+        $ rails server
+
+   Run with `--help` or `-h` for options.
+
+4. Go to `http://localhost:3000` and you'll see:
+"Yay! You’re on Rails!"
